@@ -1,2 +1,2 @@
-# A curriculum vitae website.
-# Occupation: Professor.
+# Um website de curriculum vitae.
+# Área: Ciência da Computação.
