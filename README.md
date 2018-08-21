@@ -1,1 +1,2 @@
-# Testing HTML/CSS/Javascript.
+# A curriculum vitae website.
+# Occupation: Professor.
