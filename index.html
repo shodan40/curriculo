@@ -8,9 +8,12 @@
     .kazul{
         color: blue;
     }
-    img.a {
-        vertical-align: text-top;
+    td {
+
+        vertical-align: top;
+
     }
+
 </style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -185,7 +188,7 @@
   <div id="Formacao" class="w3-container city" style="display:none">
     
     <div>
-	<br>• <b>Pontifícia Universidade Católica de São Paulo</b>
+	<br>• <b>Pontifícia Universidade Católica de São Paulo PUC-SP</b>
 	<br>&nbsp;&nbsp;&nbsp;Mestrado, Ciência da Computação
 	<br>&nbsp;&nbsp;&nbsp;Dissertação: 
             <b>
@@ -196,21 +199,21 @@
         <div class="kcinza">
 	    &nbsp;&nbsp;&nbsp;2008-2011
         </div>
-    </div>
+    </div><br>
 
     <div>• <b>Faculdades Oswaldo Cruz</b>
 	<br>&nbsp;&nbsp;&nbsp;Licenciatura Plena, Matemática
         <div class="kcinza">
 	    &nbsp;&nbsp;&nbsp;2004-2005
         </div>
-    </div>
+    </div><br>
 	
     <div>• <b>Universidade Paulista</b>
 	<br>&nbsp;&nbsp;&nbsp;Especialização, Análise e Projeto de Sistemas
         <div class="kcinza">
 	    &nbsp;&nbsp;&nbsp;2002-2002
         </div>
-    </div>	
+    </div><br>
 	
     <div>• <b>Universidade Paulista</b>
 	<br>&nbsp;&nbsp;&nbsp;Bacharelado, Ciência da Computação
@@ -225,11 +228,12 @@
   
   <div id="Mais" class="w3-container city" style="display:none">
 
-    <p>
+    <div>
 		<br>• <b>Livros publicados</b>
 		<br>
 		<br>
-
+		
+		<!-- Livro 1 -->
 		<button onclick="myFunction('Livro1')" class="w3-btn w3-block w3-gray w3-left-align">Desenvolvimento em Camadas com C# .NET</button>
 		<div id="Livro1" class="w3-container w3-hide">
 		  
@@ -237,6 +241,7 @@
 		    <table>
 			<tr>
 				<td>
+				    <br>
 					<img class="a" src="livro_camadas.jpg" alt="Desenvolvimento em Camadas com C# .NET" width="165" height="255">
 				</td>
 				<td>
@@ -247,8 +252,8 @@
 					<br>
 					<br>&nbsp;&nbsp;&nbsp;Esta obra utiliza o conceito de desenvolvimento em camadas de forma totalmente prática. 
 					<br>&nbsp;&nbsp;&nbsp;Através da criação de uma aplicação para MS-Windows (Winforms), o leitor conhecerá o desenvolvimento da Camada de Acesso a Dados ou DAL (Data Access Layer), da Camada de Regras de Negócio ou BLL (Business Logic Layer) e da Camada de Apresentação ou UI (User Interface). 
-					<br>
 					<br>&nbsp;&nbsp;&nbsp;O leitor aprenderá:
+					<br>					
 					<br>&nbsp;&nbsp;&nbsp;- O processo de criação de banco de dados por meio de tabelas e procedimentos armazenados (stored procedures);
 					<br>&nbsp;&nbsp;&nbsp;- A criação de classes para gerenciamento de banco de dados usando stored procedures;
 					<br>&nbsp;&nbsp;&nbsp;- Como administrar transações no banco de dados via programação;
@@ -258,11 +263,14 @@
 					<br>&nbsp;&nbsp;&nbsp;- Como o CLR (<i>Common Language Runtime</i>) permite a compatibilidade entre diferentes linguagens de programação. 
 					<br>
 					<br>&nbsp;&nbsp;&nbsp;O livro é indicado para uso em laboratórios de informática e para o meio acadêmico, pois possui uma linguagem simples e fácil. É indicado para analistas e programadores que desejem iniciar ou aperfeiçoar seus conhecimentos em desenvolvimento de sistemas com a linguagem C# .Net. Pode ser utilizado como material de apoio para cursos de graduação, pós-graduação ou extensão.				
+					<br>&nbsp;					
 				</td>
 			</tr>
 			</table>
 
 		</div>
+		
+		<br>
 		
 		<!-- Livro 2 -->
 		<button onclick="myFunction('Livro2')" class="w3-btn w3-block w3-gray w3-left-align">Desenvolvimento de Aplicativos Desktop com C# .NET</button>
@@ -272,6 +280,7 @@
 		    <table>
 			<tr>
 				<td>
+				    <br>
 					<img src="livro_desktop.jpg" class="a" alt="Desenvolvimento de Aplicativos Desktop com C# .NET" width="165" height="255">
 				</td>
 				<td>
@@ -310,8 +319,9 @@
 
 	
 	<br><br><br><br>
-  </div>  
+    </div>  
   
+  </div>
 </div>
 
 <script>
@@ -342,4 +352,3 @@ function myFunction(id) {
 
 </body>
 </html>
-
