@@ -1,0 +1,32 @@
+Using Git
+
+ssh ftpuser@ftp.domainname
+
+Provide the password of your ftp user to stablish the connection.
+
+Once you're connected to your hosting via ssh, the first step is to create SSH keys.
+Access the .ssh directory:
+
+cd ~/.ssh [Enter]
+
+ls [Enter]
+
+If you see the files id_rsa and id_rsa.pub within this directory, you already have your keys. 
+If you don't see these files or the directory .ssh does not exist, you must create it:
+
+mkdir ~/.ssh [Enter]
+cd ~/.ssh [Enter]
+
+To create the key files, use the command:
+
+ssh-keygen -t rsa -C "email@seudominio.com.br"
+
+When asked about the file which you would like to save the key, you can just press [Enter] and the default name id_rsa.pub will be used.
+When asked about the passphrase, you can let it empty for no passphrase. If this is the case, just press [Enter]
+
+You'll see the key's randomart image.
+
+To see the content of your key, use the command:
+
+cat ~/.ssh/id_rsa.pub
+
